@@ -93,6 +93,13 @@ public class SPTV20ArrayPro {
             }
             System.out.println();
         }
+        System.out.println("Строка в Java");
+        String str;
+        str = "Это строка";
+        System.out.println("str = "+str);
+        System.out.println("Редактирование строки создает новую строку");
+        str = str.replace('а', 'и');
+        System.out.println("str = "+str);
     }
     
 }
